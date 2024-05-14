@@ -30,7 +30,7 @@ class Index extends React.Component {
         <MetaLinks />
         <Either>
           <EditorContainer router={this.props.router} snippet={this.props.snippet} />
-          
+
           <p>
             An unexpected error has occurred. Please{' '}
             <u>
