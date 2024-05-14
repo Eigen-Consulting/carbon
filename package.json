@@ -88,19 +88,5 @@
     "lodash": "^4.17.2",
     "serialize-javascript": "^6.0.0",
     "sharp": "^0.30.4"
-  },
-  "lint-staged": {
-    "*.js": [
-      "npm run lint",
-      "prettier --config .prettierrc --write"
-    ],
-    ".all-contributorsrc": [
-      "npm run contrib:build"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
