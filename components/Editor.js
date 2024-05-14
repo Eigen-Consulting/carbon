@@ -431,6 +431,7 @@ class Editor extends React.Component {
               border: 3px solid ${COLORS.SECONDARY};
               border-radius: 8px;
               padding: 16px;
+              min-width: 600px;
             }
 
             .share-buttons,

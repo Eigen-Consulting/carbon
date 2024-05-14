@@ -19,15 +19,15 @@ class Page extends React.Component {
       <main className="main mb3">
         <Meta />
         <AuthContext>
-          <Announcement />
-          <Header enableHeroText={enableHeroText} />
+          {/* <Announcement />
+          <Header enableHeroText={enableHeroText} /> */}
           <div className="login-button-container">
             <LoginButton />
           </div>
           <div className="page">{children}</div>
         </AuthContext>
 
-        <Footer />
+        {/* <Footer /> */}
 
         <style jsx>
           {`
