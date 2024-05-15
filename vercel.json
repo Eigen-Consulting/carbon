@@ -1,10 +1,6 @@
 {
-  "alias": "eigen-carbon.now.sh",
   "version": 2,
   "public": true,
-  "github": {
-    "autoAlias": false
-  },
   "functions": {
     "pages/api/image/**/*.js": {
       "maxDuration": 10
